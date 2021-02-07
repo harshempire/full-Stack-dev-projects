@@ -1,0 +1,28 @@
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+
+  background-color: brown;
+}
+/*values are overwritten*/
+/* 400 more then display purple */
+@media (min-width: 400px) {
+    .box {
+        background-color: purple;
+    }
+}
+
+/* 800 more then display green */
+@media (min-width: 800px) {
+    .box {
+        background-color: limegreen;
+    }
+}
+
+/* 1200 more then display blue */
+@media (min-width: 1200px) {
+    .box {
+        background-color: dodgerblue;
+    }
+}
